@@ -1,0 +1,45 @@
+{
+    "name": "lightweight-client-playground",
+    "version": "1.0.0",
+    "description": "A playground for testing webhook. Should not be used.",
+    "source": "src/index.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "keywords": [
+        "fake"
+    ],
+    "files": [
+        "dist/",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "depcheck": "depcheck",
+        "lint": "eslint .",
+        "test": "vitest --run",
+        "build": "tsc",
+        "testEverything": "npm run depcheck && npm run lint && npm run build --noEmit && npm run test",
+        "prepack": "npm run build"
+    },
+    "type": "module",
+    "author": "HRAshton",
+    "license": "MIT",
+    "homepage": "https://github.com/HRAshton/lightweight-client-playground",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HRAshton/lightweight-client-playground.git"
+    },
+    "bugs": {
+        "url": "https://github.com/HRAshton/lightweight-client-playground/issues"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.3.1",
+        "@eslint/js": "^9.26.0",
+        "@typescript-eslint/eslint-plugin": "^8.29.1",
+        "@typescript-eslint/parser": "^8.29.1",
+        "depcheck": "^1.4.7",
+        "eslint": "^9.24.0",
+        "typescript": "^5.8.3",
+        "vitest": "^3.1.2"
+    }
+}
