@@ -27,7 +27,7 @@
     "homepage": "https://github.com/HRAshton/lightweight-client-playground",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/HRAshton/lightweight-client-playground.git"
+        "url": "https://github.com/lightweight-clients/lightweight-client-playground"
     },
     "bugs": {
         "url": "https://github.com/HRAshton/lightweight-client-playground/issues"
