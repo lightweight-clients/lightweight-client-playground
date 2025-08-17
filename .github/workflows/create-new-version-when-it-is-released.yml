@@ -93,4 +93,4 @@ jobs:
           body: "This PR updates the client to version ${{ needs.compare-versions.outputs.api_version }}."
           branch: "new_version/${{ needs.compare-versions.outputs.api_version }}"
           base: master
-          assignees: ${{ LAC_DEFAULT_REVIEWERS }}
+          assignees: ${{ vars.LAC_DEFAULT_REVIEWERS }}
